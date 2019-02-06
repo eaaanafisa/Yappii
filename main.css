@@ -1,0 +1,23 @@
+
+
+.contentwrapper{
+    display: flex;
+    margin: 0;
+}
+
+.contenttext{
+    width: 100%;
+    display: block;
+  
+}
+
+footer{
+    position: fixed;
+    padding-top: 10px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+}
