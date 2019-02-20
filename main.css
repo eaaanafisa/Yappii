@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Bowlby+One+SC');
+
+body{
+    background: #3cb87a;
+    font-family: sans-serif;
+}
+
+
+p{
+    color: white;
+}
+
+h1{
+   font-family: 'Bowlby One SC', bold;
+    font-size: 50px;
+    color: #ef524d;
+    
+}
+ul {
+    padding-right: 60px;
+    padding-left: 100px;
+    
+}
+
+li{
+    display: inline;
+    float: right;
+    padding: 30px;
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.handPhone{
+    position: absolute;
+    /*bottom: 200px;
+    right: 10px; */
+    padding-top: 150px;
+}
+
+#handPhone{
+    height: 600px;
+    padding-left: 20px;
+}
+
+.callToAction{
+    float: right;
+    padding-left: 600px;
+    padding-right: 100px;
+    padding-top: 120px;
+}
+
+.botton{
+    border-radius: 12px;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding: 10px 30px;
+    margin-top: 50px;
+}
+
+#læsHvordan{
+    background-color: #3cb87a; 
+    color: white; 
+    border: 1px solid white;
+}
+
+#hentAppen{
+    background-color: #ef524d;
+
+}
+
+#SoMe{
+    position: absolute; 
+    bottom: 5px;
+    right: 20px;
+    
+}
+.contentwrapper{
+    display: flex;
+    margin-right:100px;
+    justify-content: center;
+}
+
+.contenttext{
+    width: 100%;
+    display: block;
+  
+}
+
+footer{
+    align-content: center;
+    position: fixed;
+    padding-top: 60px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #707070;
+    color: white;
+    text-align: center;
+   
+}
+
+footer a{
+    color: white;
+}
+
+#buttomLogo{
+    height: 15%;
+}
